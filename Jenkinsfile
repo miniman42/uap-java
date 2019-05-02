@@ -7,10 +7,13 @@ pipeline {
     }
     stages {
         stage('Update Core') { 
-            steps {
+ 	    agent {
+                docker { image 'git:alpine' }
+            }            
+	    steps {
                 sh 'git submodule update --init --remote --checkout --recursive' 
             }
-        }
+        }:
         stage('Package') {
             steps {
                 sh 'mvn package'
