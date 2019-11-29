@@ -41,14 +41,14 @@
   </scm>
   
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
+      <snapshotRepository>
+          <id>nexus-snapshots</id>
+          <url>http://localhost:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
+      <repository>
+          <id>nexus-releases</id>
+          <url>http://localhost:8081/repository/maven-releases/</url>
+      </repository>
   </distributionManagement>
   
   <properties>
