@@ -32,22 +32,22 @@
     </developer>
   </developers>
   
-  <url>https://github.com/ua-parser/uap-java</url>
+  <url>https://github.com/miniman42/uap-java</url>
   
   <scm>
-    <connection>scm:git:git://github.com/ua-parser/uap-java.git</connection>
-    <developerConnection>scm:git:ssh://github.com:ua-parser/uap-java.git</developerConnection>
-    <url>http://github.com/ua-parser/uap-java/tree/master</url>
+    <connection>scm:git:git://github.com/miniman42/uap-java.git</connection>
+    <developerConnection>scm:git:ssh://github.com:miniman42/uap-java.git</developerConnection>
+    <url>http://github.com/miniman42/uap-java/tree/master</url>
   </scm>
   
   <distributionManagement>
       <snapshotRepository>
           <id>nexus-snapshots</id>
-          <url>http://localhost:8081/repository/maven-snapshots/</url>
+          <url>http://build.tickerfit.com:8081/repository/maven-snapshots/</url>
       </snapshotRepository>
       <repository>
           <id>nexus-releases</id>
-          <url>http://localhost:8081/repository/maven-releases/</url>
+          <url>http://build.tickerfit.com:8081/repository/maven-releases/</url>
       </repository>
   </distributionManagement>
   
