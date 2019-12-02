@@ -43,11 +43,11 @@
   <distributionManagement>
       <snapshotRepository>
           <id>nexus-snapshots</id>
-          <url>http://build.tickerfit.com:8081/repository/maven-snapshots/</url>
+          <url>https://build.tickerfit.com/nexus/repository/maven-snapshots/</url>
       </snapshotRepository>
       <repository>
           <id>nexus-releases</id>
-          <url>http://build.tickerfit.com:8081/repository/maven-releases/</url>
+          <url>https://build.tickerfit.com/nexus/repository/maven-releases/</url>
       </repository>
   </distributionManagement>
   
